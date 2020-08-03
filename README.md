@@ -45,7 +45,7 @@ git clone https://github.com/Eliton-Dioni/consulta-tri.git
 Entre na pasta do projeto:
 
 ```bash
-cd frontend/
+cd consulta-tri/
 ```
 
 Para instalar todas as depêndencias, execute o comando:
@@ -54,7 +54,7 @@ Para instalar todas as depêndencias, execute o comando:
 npm install
 ```
 
-Para rodar a aplicação Angular, dentro do diretório `frontend`, execute um dos comandos:
+Para rodar a aplicação Angular, dentro do diretório `consulta-tri`, execute um dos comandos:
 
 ```bash
 ng serve ou npm start
