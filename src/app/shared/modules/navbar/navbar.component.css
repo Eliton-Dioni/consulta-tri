@@ -1,0 +1,28 @@
+.mat-toolbar {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(134, 140, 144, 0.05);
+  height: 70px;
+  width: 100%;
+}
+
+.toolbar-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #14213D;
+}
+
+button {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mat-button {
+  color: #2A3135;
+}
+
+.underline:hover {
+  border-bottom: 2px solid #F77F00;
+  padding-bottom: 3px;
+}

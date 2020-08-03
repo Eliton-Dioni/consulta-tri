@@ -1,0 +1,30 @@
+<mat-toolbar class="mat-toolbar">
+  <div class="div-1 d-flex ml-4">
+    <mat-icon svgIcon="bus" aria-hidden="false" aria-label="ícone ônibus" class="align-self-center"></mat-icon>
+    <span class="toolbar-title ml-2">Consulta Tri</span>
+  </div>
+  <button
+    mat-button
+    matTooltip="Linhas de ônibus"
+    [matTooltipShowDelay]="showDelay.value"
+    [matTooltipHideDelay]="hideDelay.value"
+    class="mat-button ml-5"
+    (click)="handleBus()"
+  >
+    <span class="underline">
+      Ônibus
+    </span>
+  </button>
+  <button
+    mat-button
+    matTooltip="Linhas de lotação"
+    [matTooltipShowDelay]="showDelay.value"
+    [matTooltipHideDelay]="hideDelay.value"
+    class="mat-button ml-5"
+    (click)="handleMinibus()"
+  >
+    <span class="underline">
+      Lotação
+    </span>
+  </button>
+</mat-toolbar>

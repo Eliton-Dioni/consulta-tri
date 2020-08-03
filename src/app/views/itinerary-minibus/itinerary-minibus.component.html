@@ -1,0 +1,29 @@
+<div class="ml-4 mt-0 div">
+  <button mat-icon-button class="btn" aria-label="Voltar" style="color: #14213D" (click)="handleMiniBus()">
+    <mat-icon svgIcon="back" aria-hidden="false" aria-label="ícone voltar"></mat-icon>
+    Voltar
+  </button>
+</div>
+<div class="d-flex flex-column">
+  <h4 *ngIf="itineraryMiniBusList" class="title">Itinerário de {{itineraryMiniBusList.nome}}</h4>
+  <hr class="line-main">
+</div>
+
+<div class="table content">
+  <table *ngIf="itineraryMiniBusList" datatable class="responsive thead-light table-hover">
+    <thead>
+      <tr>
+        <th class="dt-center">CÓDIGO</th>
+        <th>NOME</th>
+        <th class="dt-center">LOCALIZAÇÃO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let list of itineraryMiniBusList | keyvalue">
+        <td class="dt-center">{{itineraryMiniBusList.codigo}}</td>
+        <td>Parada {{list.key}}</td>
+        <td class="dt-center"><a href="https://www.google.com/maps/?q={{list.value.lat}},{{list.value.lng}}" target="_blank">Ver no mapa</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

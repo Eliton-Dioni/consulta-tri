@@ -1,27 +1,81 @@
-# Frontend
+<h4 align="center">
+  <img src="" width="250px" /><br>
+  <b>🚍 Sistema de consultas DataPOA 🚌</b>
+</h4>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+<p align="center">
+  <a href="#-projeto">Projeto</a> |
+  <a href="#-tecnologias">Tecnologias</a> |
+  <a href="#-screenshots">Screenshots</a> |
+  <a href="#-instalação">Instalação</a>   |
+</p>
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### 🚐 Projeto
 
-## Code scaffolding
+O projeto tem como finalidade realizar consultas de linhas de ônibus e linhas de lotação integrado ao DataPOA, podendo visualizar os itinerários através do Google Maps.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 👨‍💻 Tecnologias  
 
-## Build
+Consulta Tri foi desenvolvido a partir das tecnologias:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* [Angular](https://angular.io/)
+* [Angular Material](https://material.angular.io/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Datatable](https://datatables.net/)
 
-## Running unit tests
+### 📸 Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##### Tela de Linhas de Ônibus e Lotação
 
-## Running end-to-end tests
+![telaInicial](./images/telaInicial.png)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+##### Tela de Itinerários
 
-## Further help
+![telaItinerarios](./images/telaItinerarios.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### 💾 Instalação
+
+Clone este repositório:
+
+```bash
+git clone https://github.com/Eliton-Dioni/consulta-tri.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd frontend/
+```
+
+Para instalar todas as depêndencias, execute o comando:
+
+```bash
+npm install
+```
+
+Para rodar a aplicação Angular, dentro do diretório `frontend`, execute um dos comandos:
+
+```bash
+ng serve ou npm start
+```
+
+Navegue até `http://localhost:4200/` em um navegador de sua preferência.
+
+### ♻️ Contribuição
+
+Sempre podemos nos aperfeiçoar, me ajude a criar um repositório cada vez melhor!
+
+* Faça um fork desse repositório via Github;
+* Crie uma branch com a sua feature: `git checkout -b my-feature-example`
+* Faça commit das suas mudanças: `git commit -m 'feat: My new feature example'`
+* Dê Push na sua branch: `git push origin my-feature-example`
+
+### 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
+
+</br>
+
+Criado com ❤️ e ☕ por Eliton Dioni [LinkedIn](https://www.linkedin.com/in/eliton-dioni-9628a0104/)

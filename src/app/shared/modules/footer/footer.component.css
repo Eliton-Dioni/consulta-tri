@@ -1,0 +1,39 @@
+.mat-toolbar {
+  height: 98px;
+  width: 100%;
+  background: linear-gradient(180.33deg, #F4F2FF -8.57%, #A79BE8 -8.57%, #756995 82.96%);
+}
+
+.footer-div {
+  width: 100%;
+}
+
+.elipse {
+  background: #FFFFFF;
+  width: 36.9px;
+  height: 37.08px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mat-icon-cafe {
+  width: 23px;
+  height: 23px;
+}
+
+.name-title {
+  color: #FFFFFF;
+  margin-left: 11.2px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.name-description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+}

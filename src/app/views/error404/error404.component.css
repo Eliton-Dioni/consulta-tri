@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.content {
+  min-height: calc(109vh - 32.5%);
+}
+
+.main-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 24px;
+}
+
+.second-title {
+  width: 40%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 20px;
+}
+
+.third-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  width: 170px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 8%;
+}
+
+.div-title {
+  margin-left: 8%;
+}
+
+@media screen and (max-width: 600px) {
+  .main-title {
+    font-size: 42px;
+    line-height: 24px;
+  }
+
+  .second-title {
+    width: 60%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .third-title {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .image {
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .main-title {
+    font-size: 72px;
+    line-height: 20px;
+  }
+
+  .second-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .third-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .image {
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1230px) {
+  .main-title {
+    font-size: 62px;
+    line-height: 24px;
+  }
+
+  .second-title {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .third-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .image {
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+  }
+}

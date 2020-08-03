@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: #F4F2FF; min-height: 100%; display: flex; flex-direction: column; }
+.content { min-height: calc(100vh - 32%);}
+.table { width: 72%; margin: auto; margin-bottom: 1%; background: #FFFFFF; box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2); border-radius: 8px; min-width: 395px; padding: 1%; }
+.line-main { width: 71%; height: 2px; margin: auto; margin-bottom: 8px; background: #14213D; }
+.table .thead-light th { background-color: #F4F2FF; color: #6E6893; border-color: #D9D5EC; }
+a { color: #6E6893; }
+a:hover { color: #F77F00; }
+.title { letter-spacing: 0.1em; text-transform: uppercase; color: #14213D; }
+.div { width: 10%; }
+.btn { outline: none }
