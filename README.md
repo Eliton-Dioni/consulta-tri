@@ -62,6 +62,15 @@ ng serve ou npm start
 
 Navegue até `http://localhost:4200/` em um navegador de sua preferência.
 
+### Utilizando Docker
+
+Com o docker hub instalado, execute os seguintes comandos:
+
+```bash
+docker build -t consulta-tri
+docker run -p 8081:80 consulta-tri
+```
+
 ### ♻️ Contribuição
 
 Sempre podemos nos aperfeiçoar, me ajude a criar um repositório cada vez melhor!
