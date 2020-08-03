@@ -1,5 +1,4 @@
 <h4 align="center">
-  <img src="" width="250px" /><br>
   <b>🚍 Sistema de consultas DataPOA 🚌</b>
 </h4>
 
@@ -74,7 +73,7 @@ Sempre podemos nos aperfeiçoar, me ajude a criar um repositório cada vez melho
 
 ### 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 </br>
 
